@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Henrique Joaquim Profile"
 theme: hugo-profile
 
 Paginate: 3
@@ -12,19 +12,19 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+# Menus:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Blog posts
+#       url: /blogs
+#       weight: 1
 
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+#     - identifier: gallery
+#       name: Gallery
+#       title: Blog posts
+#       url: /gallery
+#       weight: 2
 
     #Dropdown menu
     # - identifier: dropdown
@@ -45,8 +45,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Henrique Joaquim Profile"
+  description: Henrique Joaquim personal website
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -60,7 +60,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -91,12 +91,12 @@ params:
   #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
   #   brandName: "Profile" # Brand name for the brand | default is the title variable
 
-  #   menus:
+    menus:
   #     disableAbout: true
   #     disableExperience: true
   #     disableEducation: true
-  #     disableProjects: true
-  #     disableAchievements: true
+      disableProjects: true
+      disableAchievements: true
   #     disableContact: true
 
   # Hero
@@ -110,7 +110,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://drive.google.com/file/d/1K1xbHVbTPajhbdy6EsUvlnKcmsdNObfU/view?usp=sharing"
       download: true
     socialLinks:
       fontAwesomeIcons:
@@ -128,7 +128,7 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software engineer from Sesimbra, Portugal who lived in the beautiful city of Évora until the end of high school and then moved to the Lisbon area to study Electrical and Computer Engineering at Nova School of Science and technology.
+      I am a software engineer from Sesimbra, Portugal who lived in the beautiful city of Évora until the end of high school and then moved to Lisbon area to study Electrical and Computer Engineering at Nova School of Science and technology.
 
       I'm always seeking new challenges and a way to improve lives and society as a whole through technology.
     skills:
@@ -142,6 +142,14 @@ params:
         - "SQL"
         - "PHP"
         - "Javascript"
+        - "Linux"
+        - "GitHub"
+        - "SVN"
+        - "Google Cloud Platform"
+        - "Amazon Web Services"
+        - "Pentaho ETL"
+        - "Postman"
+        - "Weka"
 
 
 
@@ -183,7 +191,7 @@ params:
           enable: true
         featuredLink:
           enable: true
-          url: "https://example.com"
+          url: "https://guia.unl.pt/en/2021/fct/program/1058/course/10475"
         content: |
           Responsible for 2 lab classes of Logical Systems I, consisting of around 20 students each.
 
@@ -196,125 +204,116 @@ params:
     # title: "Custom Name"
     # index: true
     items:
-      - title: "Master of Business Administration"
+      - title: "M.Eng. in Electrical and Computer Engineering"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Nova School of Science and Technology"
+          url: "https://www.fct.unl.pt/en"
+        date: "2016 - 2021"
+        GPA: "18 out of 20"
         content: |-
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+            - President and Co-founder of [In-Nova](https://innova.pt/), NOVA SST Junior Enterprise
+            - Board member of [NEEC](https://ae.fct.unl.pt/neec/), Electrical and Computer Engineering Students Group
+            - Member of [AEFCT](https://ae.fct.unl.pt/), NOVA SST Students Group
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+      - title: "Erasmus Exchange Program in Electrical Engineering"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Poznan University of Technology"
+          url: "https://www.put.poznan.pl/en"
+        date: "2019 - 2020"
+        GPA: "4.67 out of 5.0"
+
+      # - title: "High School"
+      #   school:
+      #     name: "Thomas Jefferson High School for Science and Technology."
+      #     url: "https://example.org"
+      #   GPA: "4.2 out of 5.0"
+      #   featuredLink:
+      #     enable: true
+      #     url: "https://example.com"
 
   # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #     - title: Hugo Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #     - title: Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
 
   # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+  # projects:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Hugo Profile
+  #       content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+  #       image: /images/projects/profile.png
+  #       featured:
+  #         name: Demo
+  #         link: https://hugo-profile.netlify.app
+  #       # badges:
+  #       #   - "Hugo"
+  #       #   - "Bootstrap"
+  #       #   - "Javascript"
+  #       links:
+  #         - icon: fa fa-envelope
+  #           url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+  #         - icon: fab fa-github
+  #           url: https://github.com/gurusabarish/hugo-profile
+  #         - icon: fab fa-twitter
+  #           url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+  #     - title: Image Converter
+  #       content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+  #       image: /images/projects/converter.jpg
+  #       featured:
+  #         name: Demo
+  #         link: https://django-converter.herokuapp.com
+  #       # badges:
+  #       #   - "Django"
+  #       #   - "Bootstrap"
+  #       links:
+  #         - icon: fab fa-github
+  #           url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+  #     - title: Hugo Profile V2
+  #       content: A clean and simple Hugo template for personal portfolio and blog.
+  #       image: /images/projects/profile2.jpg
+  #       featured:
+  #         name: Demo V2
+  #         link: https://hugo-profile-2.netlify.app
+  #       # badges:
+  #       #   - "Hugo"
+  #       #   - "Bootstrap"
+  #       #   - "Javascript"
+  #       links:
+  #         - icon: fab fa-github
+  #           url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
     enable: true
     #title: "Custom name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: h.joaquim@campus.fct.unl.pt
     btnName: Mail me
 
   footer:
-    # recentPosts: false
+    recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/hjoaquim
+      linkedin: https://www.linkedin.com/in/henrique-joaquim-340b01158/
+      twitter: https://twitter.com/hjoaquim3
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
